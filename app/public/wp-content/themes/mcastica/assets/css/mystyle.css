@@ -1,0 +1,14 @@
+.navigationFlex ul{ 
+    padding-left: 15%;
+    display: flex;
+    list-style: none;
+}
+
+.navigationFlex li{ 
+    padding-left: 13%;
+}
+
+.searchPadding{
+    float: right;
+    padding-left: 10%;
+}
