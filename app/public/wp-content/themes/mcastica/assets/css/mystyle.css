@@ -2,6 +2,11 @@
     padding-left: 15%;
     display: flex;
     list-style: none;
+    color: white;
+}
+
+.navigationFlex a{
+    color: white;
 }
 
 .navigationFlex li{ 
@@ -11,4 +16,8 @@
 .searchPadding{
     float: right;
     padding-left: 10%;
+}
+
+#masthead{
+    display: none;
 }

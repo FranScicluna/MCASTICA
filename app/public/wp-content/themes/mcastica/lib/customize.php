@@ -28,7 +28,19 @@
             new WP_Customize_Color_Control($wp_customize, 'mcastica_header_text', array(
                 'label' => 'Choose Theme Header Text Color',
                 'section' => 'mcastica_header_options',
-                'settings' => 'mcastica_theme-header-bg'
+                'settings' => 'mcastica_header_text'
+
+            ))
+        );
+
+        //Logo
+        $wp_customize -> add_setting('mcastica_header_logo');
+
+        $wp_customize -> add_control(
+            new WP_Customize_Image_Control($wp_customize, 'mcastica_header_text', array(
+                'label' => 'Choose Theme Header Logo',
+                'section' => 'mcastica_header_options',
+                'settings' => 'mcastica_header_logo'
 
             ))
         );
