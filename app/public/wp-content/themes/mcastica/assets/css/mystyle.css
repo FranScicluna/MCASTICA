@@ -15,15 +15,16 @@ body{
 
 .navigationFlex a{
     color: white;
+    text-decoration: none;
 }
 
 .navigationFlex li{ 
-    padding-left: 13%;
+    padding-left: 10%;
 }
 
 .searchPadding{
     float: right;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
 .headerIMG{

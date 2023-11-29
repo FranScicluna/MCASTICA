@@ -2,8 +2,9 @@
 
 <h1>Home</h1>
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
+
 <!-- The Loop -->
 <?php 
 	$args = array('section_title' => 'Home');
@@ -15,4 +16,5 @@
 		</div>
 	</div>
 </div>
+
 <?php get_footer(); ?>
