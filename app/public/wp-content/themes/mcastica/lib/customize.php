@@ -107,26 +107,41 @@
         );
 
         //Footer Widgets
-        $wp_customize -> add_setting('mcastica_footer_widget_count', array(
+        $wp_customize -> add_setting('mcastica_firstfooter_widget_count', array(
             'default' => '2',
             'sanitize_callback' => 'sanitize_text_field' /*A callback is what is going to happen after the function runs, makes sure that everything runs safe*/
 
         ));
 
-        $wp_customize -> add_control('mcastica_footer_widget_count', array(
+        $wp_customize -> add_control('mcastica_firstfooter_widget_count', array(
             'type' => 'select',
             'label' => 'Footer Widget Count',
             'choices' => array(
                 '1' => '1 Widget',
                 '2' => '2 Widgets',
                 '3' => '3 Widgets',
-                '4' => '4 Widgets',
             ),
             'section' => 'mcastica_footer_options'
 
         ));
 
+        $wp_customize -> add_setting('mcastica_secondfooter_widget_count', array(
+            'default' => '2',
+            'sanitize_callback' => 'sanitize_text_field' /*A callback is what is going to happen after the function runs, makes sure that everything runs safe*/
 
+        ));
+
+        $wp_customize -> add_control('mcastica_secondfooter_widget_count', array(
+            'type' => 'select',
+            'label' => 'Footer Widget Count',
+            'choices' => array(
+                '1' => '1 Widget',
+                '2' => '2 Widgets',
+                '3' => '3 Widgets',
+            ),
+            'section' => 'mcastica_footer_options'
+
+        ));
 
     }
 
