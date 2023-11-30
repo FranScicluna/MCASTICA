@@ -9,11 +9,11 @@ require_once("lib/enqueue-assets.php");
 require_once("lib/customize.php");
 require_once("lib/sidebars.php");
 
-function mcastica_h6title($title){
-    return "<h6>".$title."</h6>";
+function mcastica_h3title($title){
+    return "<h3>".$title."</h3>";
 }
 
-add_filter('the_title','mcastica_h6title');
+add_filter('the_title','mcastica_h3title');
 
 function mcastica_excerptlength($words){
     return 15;
