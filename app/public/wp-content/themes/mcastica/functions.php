@@ -10,7 +10,7 @@ require_once("lib/customize.php");
 require_once("lib/sidebars.php");
 
 function mcastica_h3title($title){
-    return "<h3>".$title."</h3>";
+    return "<h6>".$title."</h6>";
 }
 
 add_filter('the_title','mcastica_h3title');

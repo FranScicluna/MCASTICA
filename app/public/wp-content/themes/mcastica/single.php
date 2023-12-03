@@ -13,36 +13,19 @@
         <div class="col-3">
             <div class="row sidebarFlex mt-4 p-4">
                 <div class="col-1">
-                    <?php 
-                        if($author_url){
-                            echo "<p><a href='{$author_url}'>{$author_display}</a></p>";
-                        }
-                        else{
-                            echo "<p>{$author_display}</p>";
-                        }
-                    ?>
+                    <p>admin</p>
                 </div>
-                <div class="col-1">
+                <div class="col-2">
                     <?php
-                        if($author_url){
-                            echo "<p><a href='{$author_url}'>{$author_display}</a></p>";
-                        }
-                        else{
-                            echo "<p>{$author_display}</p>";
-                        }
-                        if($author_desc){
-                            echo "<p>{$author_desc}</p>";
-                        }
                         if($author_posts > 1){
                             $post_word = "Posts";
                         }
                         else{
                             $posts_word = "Post";
                         }
-                        echo "<p><a href='{$author_posts_url}'>{$author_posts} {$post_word} written by {$author_display}</a></p>";
+                        echo "<p><a href='{$author_posts_url}'>{$author_posts} {$post_word}</a></p>";
                     ?>
                 </div>
-                <div class="col-1">3</div>
             </div>
             <?php //get_sidebar(); ?>
         </div>
@@ -79,15 +62,6 @@
                             if($author_desc){
                                 echo "<p>{$author_desc}</p>";
                             }
-
-                            if($author_posts > 1){
-                                $post_word = "Posts";
-                            }
-                            else{
-                                $posts_word = "Post";
-                            }
-
-                            echo "<p><a href='{$author_posts_url}'>{$author_posts} {$post_word} written by {$author_display}</a></p>";
                         ?>
 
 
