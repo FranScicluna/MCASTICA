@@ -24,6 +24,4 @@
         }
     }
     add_action('widgets_init', 'mcastica_secondfooter_sidebars');
-
-
 ?>

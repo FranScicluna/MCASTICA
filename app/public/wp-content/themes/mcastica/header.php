@@ -21,7 +21,7 @@
   <div class="row align-content-center align-items-center" style="height: 100px;">
     <div class="col-4" style="color: <?php echo $header_text;?>;"><img class="headerIMG" src="<?php echo $header_logo?>" alt=""></div>
     <div class="col-4">
-      <nav id="mcastica-main-menu" class="navigationFlex" style="color: <?php echo $header_text;?>;">
+      <nav id="mcastica-main-menu" class="navigationFlex main-menu" style="color: <?php echo $header_text;?>;">
         <?php
           wp_nav_menu(array(
             'theme_location' => 'main-menu'

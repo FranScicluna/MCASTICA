@@ -12,7 +12,7 @@ if(have_posts()) :while(have_posts()) : the_post();
 
 <div class="container">
     <div class="row">
-        <div class="col-3">
+        <div class="col-3 pt-5">
             <div class="row sidebarFlex mt-4 p-4">
                 <div>
                 <?php echo "<p><a href='{$author_posts_url}'>{$author_display}</a></p>";?>
@@ -29,18 +29,14 @@ if(have_posts()) :while(have_posts()) : the_post();
             </div>
             <?php //get_sidebar(); ?>
         </div>
-        <div class="col-9">
+        <div class="col-9 pt-5 pb-5">
             <main>
                 
 
                     <article <?php post_class("mt-4 p-4");?>>
-                        <h1><?php the_title()?></h1>
+                        <span id="newsTitle"><?php the_title()?></span>
 
-                        <div><?php the_content(); ?></div>
-
-                        <div class="bg-dark">
-                            <div><?php echo get_avatar($author_id,200);?></div>
-                        </div>
+                        <div class="contentPadding"><?php the_content(); ?></div>
                     </article>
 
                     

@@ -28,7 +28,7 @@ body{
 }
 
 .headerIMG{
-    width: 15%;
+    width: 45%;
     margin-left: 10%;
 }
 
@@ -62,4 +62,34 @@ body{
 .newsSideText{
     font-size: small;
 }
+
+.main-menu ul li{
+    position: relative;
+}
+
+.main-menu ul li:hover ul{
+    background-color: #000043;
+    text-align: left;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    padding-left: 1px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.main-menu ul li ul{
+    display: none;
+    position: relative;
+    padding-top: 50px;
+}
+
+#newsTitle{
+    font-size: 45px !important;
+}
+
+.contentPadding{
+    padding-top: 50px;
+}
+
 
