@@ -10,16 +10,18 @@ body{
     padding-left: 15%;
     display: flex;
     list-style: none;
-    color: white;
+    color: #000043;
 }
 
 .navigationFlex a{
-    color: white;
+    color: #000043;
     text-decoration: none;
+
 }
 
 .navigationFlex li{ 
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-top: 1%
 }
 
 .searchPadding{
@@ -28,7 +30,7 @@ body{
 }
 
 .headerIMG{
-    width: 45%;
+    width: 30%;
     margin-left: 10%;
 }
 

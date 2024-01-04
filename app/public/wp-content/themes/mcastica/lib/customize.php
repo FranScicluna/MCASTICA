@@ -8,7 +8,7 @@
 
         //Background
         $wp_customize -> add_setting('mcastica_theme_header_bg', array(
-            'default' => '#000043',
+            'default' => '#ededed',
         ));
 
         $wp_customize -> add_control(
