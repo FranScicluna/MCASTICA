@@ -35,21 +35,22 @@ body{
 }
 
 .firstFooter{
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-left: 15%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
     padding-top: 2%;
 }
 
 .secondFooter{
-    height: 75px;
+    height: 115px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 15%;
-    padding-top: 2%;
+    padding-top: 1.5%;
 }
 
 .cardsPad{
@@ -70,7 +71,7 @@ body{
 }
 
 .main-menu ul li:hover ul{
-    background-color: #000043;
+    background-color: #ededed;
     text-align: left;
     display: block;
     position: absolute;
