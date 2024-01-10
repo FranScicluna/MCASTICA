@@ -32,6 +32,8 @@
       ?>
 
         </div>
+
+        
         <div class="container-fluid secondFooter" style="background-color: <?php echo $second_bg;?>; color:<?php echo $second_text;?>;">
         <?php
         $footer2_layout = get_theme_mod('mcastica_secondfooter_widget_count','3');

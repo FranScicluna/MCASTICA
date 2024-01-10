@@ -125,6 +125,8 @@
 
         ));
 
+        
+
         $wp_customize -> add_setting('mcastica_secondfooter_widget_count', array(
             'default' => '2',
             'sanitize_callback' => 'sanitize_text_field' /*A callback is what is going to happen after the function runs, makes sure that everything runs safe*/
