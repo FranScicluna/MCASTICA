@@ -107,29 +107,70 @@ Post Types and Catagories
 
 
 
+
+
 Plugins
 
 3D FlipBook: Dflip Lite
 
+  This plugin allows the user to upload a 3D pdf which in turn will behave as if it is a real-life book. I used this plugin for 1 instance in this theme, when looking at the prospectus, I found the PDF MCAST used and displayed it in the same flipbook manner.
+
+  <img width="782" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/865dfc4d-d13d-4ff6-a928-1676b05cae5d">
+
+
 Blog Designer Pack
+
+  This plugin allows the user to display post types in visually appealing grids. I wanted to have an aesthetic news page that would display the different posts in a grid. This plugin allowed me to choose any grid layout I wanted, provided the shortcode for it, and upon entering the shortcode on the page, the layout was implemented.
+
+  <img width="1361" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/5eb2acc5-6bfe-4323-b399-d7bd6e9b36e1">
+
 
 Custom Post Types UI
 
-Duplicate Page
+  Custom Post Types as mentioned before are used to create the custom post types such as courses, facilities, and student clubs. 
 
-Featured Image from URL
+
+Featured Image from URL (FIFU)
+
+  FIFU is a very simple plugin that allows the user to add a featured image to the post. This featured image, when paired up with Blog Designer Pack will allow the news articles to have that thumbnail image, as by default WordPress did not support this.
 
 Formidable Forms
 
+  Formidable Forms allows users to create responsive and good-looking forms that can be used in any context. In my case, formidable forms were used when creating the Contact Us page and the Course Application page. The editor for the forms also allows you to change how the form looks stylistically making it quite a useful plugin.
+
+  <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/265f69a0-871b-4476-9e27-432b0e9beba0">
+
+
 Ivory Search
+
+  Ivory Search creates a visually attractive search bar that can be filtered to search for custom post types. For example, one search bar could be used to filter for only courses, only facilities, or only student clubs. This plugin is very useful as the built-in WordPress search bar looks quite outdated and ends up diminishing the header's look.
+
+  <img width="858" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/1d29cf33-f781-4c9e-8fda-2673e134f40b">
 
 NextGen Gallery
 
+  NextGen Gallery is a plugin that works similarly to the Blog Designer Pack. This plugin allows you to upload any images you want to it and then offers you several different layout options for you to choose from. Each layout allows you to click on the individual image, which will take full size.
+
+  <img width="1353" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/a2bd5908-8d81-47a1-b359-805332d59914">
+  <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/51d6edaf-e0bc-4c67-a7c5-7e29a6f24b0d">
+  
 SVG Support
+
+  The SVG support plugin allows the user to upload any SVG files they wish to the media library. By default, SVGs were not accepted therefore certain icons, that are normally saved as SVGs would not be uploaded. 
 
 WordPress Books Gallery
 
+  WordPress Books Gallery is one of the best library plugins available as it allows you to copy the information of the book, such as Name, Author, Publisher, IBAN, etc.. and very easily allows you to display it visually. Its support for images allows you to also add book covers, completing the library feel.
+
+  <img width="1460" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/8551d186-6df5-41ba-b2ac-4357eae2f2a0">
+  <img width="800" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/edbec3d1-93fb-4cb0-b7ca-df20d0223800">
+
 WP Dummy Content Generator
+
+  Lastly, the dummy content generator plugin is one of the most important ones as it allows the user to create fake posts to be able to test out both functional and visual features without needing to manually fill in posts with fake content.
+
+  <img width="1270" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/78c8d5d1-fa70-4760-a833-7c52ef9b4d55">
+
 
 
 
