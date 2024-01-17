@@ -50,6 +50,11 @@ Customizer
 
   <img width="1137" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/7aeadf0b-e175-4915-838c-8b8fbf2c9251">
 
+  When all the settings have been added, the function is then connected with the action 'customize_register'
+
+  <img width="1138" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/47b69c3d-1e1c-4129-8ea3-9550696d5a46">
+
+
   Firstly, the Section option itself is created, which will house all of the relevant settings within it, Secondly, the individual Setting is created followed by the control. The control is the option that the user will be interacting with, for example, the color picker.
 
   Header Options
@@ -64,6 +69,23 @@ Customizer
   <img width="300" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/2159514d-334b-4bfe-ad69-f0699a0ea201">
 
   As seen above, both footers can have their background colors changed to whatever the user deems fit. Furthermore, apart from the background color, the user can also choose the text color of each footer, to create the best contrast possible. As mentioned in the footer section, the footers both have a limited maximum number of sections, 3. The user can use these Footer Options to select how many sections they would like in each footer.
-Stylesheets
+
+
+
+Stylesheets & Enqueue Assets
+
+  This theme has 3 active stylesheets. Firstly, the stylesheet that comes by default with WordPress is called wpcore.css. This CSS file was not altered. Bootstrap.css is another stylesheet that is being implemented in this theme. Bootstrap allows us to use its container and column layout methods which help structure the page better as well as help with responsiveness as most of the resizing is taken care of by default. Lastly, the final CSS is mystyle.css. Mystyle.css is the stylesheet that impacts the content itself rather than the layout, as done by the bootstrap stylesheet.
+
+  Connect these stylesheets to the project, it is not done through the <head> tag as normal but through a PHP file enqueue-assets.php. Enqueue-assets.php uses a WordPress function wp_enqueue_style to connect the style sheet. The code is as follows: 
+
+  <img width="539" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/4ec28c5f-220c-48e6-9aef-1778a5b00446">
+
 
 Sidebars
+
+  Sidebars were used in two places throughout this theme. Firstly, sidebars were used in the Posts where the page column was split between col-3 and col-8. The sidebar was placed in the col-3 to show basic info such as who wrote the post and on which date.
+
+  <img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/bf6cd227-09fd-48fa-8d95-bbf82827bf74">
+
+  Using several WordPress functions, one is able to obtain all the necessary information regarding a post
+
