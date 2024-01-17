@@ -17,9 +17,16 @@ Template - Parts
 
 MCAST-ICA Theme ReadMe File
 
+Template-Parts
+
+Template parts is a folder found within the code that has the most important PHP file in the entire theme. Loop.php allows WordPress to see if there are any posts to display, if so the post is then displayed. Without this code, the website's content would not be loaded. As this loop is needed in all of the php files relating to a page, instead of it being repeated in each, it is coded once in template parts and then by using the get_template_part function, linked in each of these files.
+
+<img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/e2fe0d92-8706-4063-8655-7540b28438f1">
+
+
 Header
 
-  The header for this website is stored in its own .php file called header.php. This file is responsible for creating the HTML declaration:
+  The header for this website is stored in its .php file called header.php. This file is responsible for creating the HTML declaration:
 
   <img width="1419" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/552631d0-f8db-4fa6-b223-8b48e9afa4fa">
 
@@ -87,5 +94,26 @@ Sidebars
 
   <img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/bf6cd227-09fd-48fa-8d95-bbf82827bf74">
 
-  Using several WordPress functions, one is able to obtain all the necessary information regarding a post
+  Using several WordPress functions, one can obtain all the necessary information regarding a post. Visually it looks like this:
+
+  <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/c9a0c99a-1902-479c-b067-c502d2cb0539">
+
+  The second place where sidebars are being used is in the footers. As mentioned in the Footer section, the footers have 3 sections each. These sections are built using sidebars, each footer is made up of a possible 3 sidebars. The way that this is coded is, that in each footer a for loop is being run where the value that the user enters in the customizer (relating to the number of sidebars) becomes the limit point of the loop.
+
+  <img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/365a2521-18b1-4384-841a-7af58c397e51">
+
+  Once created these sidebars are then visible in the Widgets section on the WordPress dashboard. In this section, one can edit the widgets in any way they see fit.
+
+
+Post Types and Catagories
+
+  Apart from the regular Pages and Posts that come with WordPress automatically, this theme also has custom post types to properly separate content. Three post types were created, all using the Custom Post Types plugin. This plugin allows you to create a post type that is different from the regular one. In this case, courses, facilities, and student clubs were all separated by their post type. Using this post type, single.php (handles the code for posts) could be altered depending on the post types if the user wanted to create a visual distinction between the three.
+
+  Having different post types also helps users filter posts when using several news plugins for example. To add a new custom post type, open the CPT UI panel on the dashboard. Using this plugin one can easily create as many custom post types as neccessary.
+
+  <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/50fbd30b-a9c1-42ae-bd7c-0c96b9158fdc">
+
+  
+
+
 
