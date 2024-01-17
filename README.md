@@ -24,6 +24,15 @@ Template parts is a folder found within the code that has the most important PHP
 <img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/e2fe0d92-8706-4063-8655-7540b28438f1">
 
 
+Functions
+
+Functions. php is a file that directly influences the functioning of your WordPress website. From it, you can create code patterns and add elements and functionality to the themes used in your pages. Thus, you are able to offer much more qualified experiences. In this case, in functions.php the admin bar is set to false. The admin bar is a bar ontop of the website that allows you to access the dashboard when viewing your website. It was turned off as it gets in the way of the user's experience and the user will never need to access the dashboard of the website.
+
+Additionally, functions.php uses the PHP function of require_once to link other PHP files to the project, such as the customizer, navigations, enqueue_assets etc.
+
+<img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/bde2c71b-8c67-4ff0-a369-f2d6495a71f4">
+
+
 Header
 
   The header for this website is stored in its .php file called header.php. This file is responsible for creating the HTML declaration:
@@ -109,7 +118,7 @@ Post Types and Catagories
 
   Apart from the regular Pages and Posts that come with WordPress automatically, this theme also has custom post types to properly separate content. Three post types were created, all using the Custom Post Types plugin. This plugin allows you to create a post type that is different from the regular one. In this case, courses, facilities, and student clubs were all separated by their post type. Using this post type, single.php (handles the code for posts) could be altered depending on the post types if the user wanted to create a visual distinction between the three.
 
-  Having different post types also helps users filter posts when using several news plugins for example. To add a new custom post type, open the CPT UI panel on the dashboard. Using this plugin one can easily create as many custom post types as neccessary.
+  Having different post types also helps users filter posts when using several news plugins for example. To add a new custom post type, open the CPT UI panel on the dashboard. Using this plugin one can easily create as many custom post types as necessary.
 
   <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/50fbd30b-a9c1-42ae-bd7c-0c96b9158fdc">
 
