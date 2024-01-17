@@ -1,20 +1,3 @@
-Going to explain the technical side, functions are in functions php, header is in its own php file
-css is mystyle
-has bootstrap
-customizer
-sidebars
-functions
-template parts
-loop
-
-
-
-
-Template - Parts 
-  content-page.php
-  content.php
-  loop.php
-
 MCAST-ICA Theme ReadMe File
 
 Template-Parts
