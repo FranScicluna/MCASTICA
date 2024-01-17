@@ -105,7 +105,31 @@ Post Types and Catagories
 
   <img width="1469" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/50fbd30b-a9c1-42ae-bd7c-0c96b9158fdc">
 
-  
+
+
+Plugins
+
+3D FlipBook: Dflip Lite
+
+Blog Designer Pack
+
+Custom Post Types UI
+
+Duplicate Page
+
+Featured Image from URL
+
+Formidable Forms
+
+Ivory Search
+
+NextGen Gallery
+
+SVG Support
+
+WordPress Books Gallery
+
+WP Dummy Content Generator
 
 
 
