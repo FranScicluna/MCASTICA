@@ -11,7 +11,7 @@ Template parts is a folder found within the code that has the most important PHP
 
 Functions
 
-Functions. php is a file that directly influences the functioning of your WordPress website. From it, you can create code patterns and add elements and functionality to the themes used in your pages. Thus, you are able to offer much more qualified experiences. In this case, in functions.php the admin bar is set to false. The admin bar is a bar ontop of the website that allows you to access the dashboard when viewing your website. It was turned off as it gets in the way of the user's experience and the user will never need to access the dashboard of the website.
+Functions. php is a file that directly influences the functionality of your WordPress website. From it, you can create code patterns and add elements and functionality to the themes used in your pages. Thus, you are able to offer much more qualified experiences. In this case, in functions.php the admin bar is set to false. The admin bar is a bar ontop of the website that allows you to access the dashboard when viewing your website. It was turned off as it gets in the way of the user's experience and the user will never need to access the dashboard of the website.
 
 Additionally, functions.php uses the PHP function of require_once to link other PHP files to the project, such as the customizer, navigations, enqueue_assets etc.
 
