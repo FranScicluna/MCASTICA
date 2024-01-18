@@ -4,7 +4,7 @@ This ReadMe file's purpose is to help any developers understand how this theme w
 
 Template-Parts
 
-Template parts is a folder found within the code that has the most important PHP file in the entire theme. Loop.php allows WordPress to see if there are any posts to display, if so the post is then displayed. Without this code, the website's content would not be loaded. As this loop is needed in all of the php files relating to a page, instead of it being repeated in each, it is coded once in template parts and then by using the get_template_part function, linked in each of these files.
+Template parts is a folder found within the code that has the most important PHP file in the entire theme. Loop.php allows WordPress to see if there are any posts to display, if so, the post is then displayed. Without this code, the website's content would not be loaded. As this loop is needed in all of the php files relating to a page, instead of it being repeated in each, it is coded once in template parts and then by using the get_template_part function, linked in each of these files.
 
 <img width="1141" alt="image" src="https://github.com/FranScicluna/MCASTICA/assets/72557696/e2fe0d92-8706-4063-8655-7540b28438f1">
 
